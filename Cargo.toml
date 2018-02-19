@@ -1,0 +1,13 @@
+[package]
+name = "firmat"
+version = "0.1.0"
+authors = ["monocasa <tristan.hastings.miller@gmail.com>"]
+
+[features]
+default = ["std"]
+
+std = ["nom/std"]
+
+[dependencies.nom]
+version = "4.0.0-beta1"
+default-features = false
